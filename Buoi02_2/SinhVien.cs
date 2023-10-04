@@ -39,7 +39,7 @@ namespace Buoi02_2
             HoTen = Console.ReadLine();
             Console.Write("Nhap DiemTB:");
             DiemTB = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Nhap Khoa:");
+            Console.Write("Nhap a:");
             Khoa = Console.ReadLine();
 
         }

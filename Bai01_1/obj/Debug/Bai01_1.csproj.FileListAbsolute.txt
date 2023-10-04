@@ -1,0 +1,7 @@
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Bai01_1\bin\Debug\Bai01_1.exe.config
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Bai01_1\bin\Debug\Bai01_1.exe
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Bai01_1\bin\Debug\Bai01_1.pdb
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Bai01_1\obj\Debug\Bai01_1.csproj.AssemblyReference.cache
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Bai01_1\obj\Debug\Bai01_1.csproj.CoreCompileInputs.cache
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Bai01_1\obj\Debug\Bai01_1.exe
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Bai01_1\obj\Debug\Bai01_1.pdb

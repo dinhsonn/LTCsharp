@@ -1,0 +1,14 @@
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Do_an\bin\Debug\Do_an.exe.config
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Do_an\bin\Debug\Do_an.exe
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Do_an\bin\Debug\Do_an.pdb
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Do_an\obj\Debug\Do_an.csproj.AssemblyReference.cache
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Do_an\obj\Debug\Do_an.Properties.Resources.resources
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Do_an\obj\Debug\Do_an.Form1.resources
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Do_an\obj\Debug\Do_an.View.frmLogin.resources
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Do_an\obj\Debug\Do_an.csproj.GenerateResource.cache
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Do_an\obj\Debug\Do_an.csproj.CoreCompileInputs.cache
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Do_an\obj\Debug\Do_an.exe
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Do_an\obj\Debug\Do_an.pdb
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Do_an\obj\Debug\Do_an.View.frmChangePassword.resources
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Do_an\obj\Debug\Do_an.View.frmFindProduct.resources
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Do_an\obj\Debug\Do_an.View.frmViewImage.resources

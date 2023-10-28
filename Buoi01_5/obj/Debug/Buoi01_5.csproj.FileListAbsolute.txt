@@ -1,0 +1,6 @@
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Buoi01_5\bin\Debug\Buoi01_5.exe.config
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Buoi01_5\bin\Debug\Buoi01_5.exe
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Buoi01_5\bin\Debug\Buoi01_5.pdb
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Buoi01_5\obj\Debug\Buoi01_5.csproj.CoreCompileInputs.cache
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Buoi01_5\obj\Debug\Buoi01_5.exe
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Buoi01_5\obj\Debug\Buoi01_5.pdb

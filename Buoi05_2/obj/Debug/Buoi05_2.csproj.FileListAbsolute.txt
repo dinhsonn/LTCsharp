@@ -1,0 +1,9 @@
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Buoi05_2\bin\Debug\Buoi05_2.exe.config
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Buoi05_2\bin\Debug\Buoi05_2.exe
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Buoi05_2\bin\Debug\Buoi05_2.pdb
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Buoi05_2\obj\Debug\Buoi05_2.csproj.AssemblyReference.cache
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Buoi05_2\obj\Debug\Buoi05_2.Properties.Resources.resources
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Buoi05_2\obj\Debug\Buoi05_2.csproj.GenerateResource.cache
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Buoi05_2\obj\Debug\Buoi05_2.csproj.CoreCompileInputs.cache
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Buoi05_2\obj\Debug\Buoi05_2.exe
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Buoi05_2\obj\Debug\Buoi05_2.pdb

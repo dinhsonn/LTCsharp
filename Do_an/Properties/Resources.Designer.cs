@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Do_an.Properties {
+namespace do_an.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Do_an.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Do_an.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("do_an.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -63,9 +63,9 @@ namespace Do_an.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap image_preview_icon_picture_placeholder_vector_31284806 {
+        internal static System.Drawing.Bitmap noImages {
             get {
-                object obj = ResourceManager.GetObject("image-preview-icon-picture-placeholder-vector-31284806", resourceCulture);
+                object obj = ResourceManager.GetObject("noImages", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

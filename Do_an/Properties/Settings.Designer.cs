@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Do_an.Properties {
+namespace do_an.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -27,9 +27,9 @@ namespace Do_an.Properties {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-6VU8G2A;Initial Catalog=DOAN;Integrated Security=True")]
-        public string Setting {
+        public string ShopSimpleConnectionString1 {
             get {
-                return ((string)(this["Setting"]));
+                return ((string)(this["ShopSimpleConnectionString1"]));
             }
         }
     }

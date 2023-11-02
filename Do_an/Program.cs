@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Do_an.View;
-namespace Do_an
+using do_an.View;
+namespace do_an
 {
     static class Program
     {

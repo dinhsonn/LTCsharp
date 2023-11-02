@@ -92,8 +92,5 @@ namespace Buoi06_1
             cmd = new SqlCommand(sql, conn);
             cmd.ExecuteNonQuery();
         }
-
-
-
     }
 }

@@ -1,7 +1,12 @@
-﻿
-namespace Do_an.Model
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace do_an.Model
 {
-    public class Temp
+    class Temp
     {
         private static string _user;
         private static bool _isAdmin;

@@ -1,14 +1,19 @@
-﻿using ShopSimple.Model;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
-namespace ShopSimple.Controller
+using do_an.Model;
+using System.Configuration;
+namespace do_an.Controller
 {
     public class bInvoice
     {
-        private DBShopSimpleDataContext db = new DBShopSimpleDataContext();
+        private DBShopSimpleDataContext db;
 
+        public bInvoice()
+        {
+            string connectionString = ConfigurationManager.ConnectionStrings["do_an.Properties.Settings.ShopSimpleConnectionString1"].ConnectionString;
+            db = new DBShopSimpleDataContext(connectionString);
+        }
         public bool Add(Invoice data)
         {
             try
@@ -73,7 +78,7 @@ namespace ShopSimple.Controller
 
         public string CreateKey()
         {
-            return ShopSimple.Library.Lib.CreateKey("HD", true);
+            return do_an.Library.Lib.CreateKey("HD", true);
         }
 
         public IEnumerable<Invoice> GetList(string text, DateTime dateFrom, DateTime dateTo, bool isDate,

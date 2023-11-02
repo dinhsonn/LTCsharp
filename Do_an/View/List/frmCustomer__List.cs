@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Do_an.View
+namespace do_an.View.List
 {
-    public partial class frmFindProduct : Form
+    public partial class frmCustomer__List : Form
     {
-        public frmFindProduct()
+        public frmCustomer__List()
         {
             InitializeComponent();
         }

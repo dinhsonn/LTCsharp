@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Buoi06_1
@@ -47,9 +40,9 @@ namespace Buoi06_1
         }
         private void btnThem_Click(object sender, EventArgs e)
         {
-            insertupdate = "insert";
-            btnLuu.Enabled = true;
-            mtxtMaSV.Enabled = true;
+                insertupdate = "insert";
+                btnLuu.Enabled = true;
+                mtxtMaSV.Enabled = true;
         }
 
         private void btnSua_Click(object sender, EventArgs e)

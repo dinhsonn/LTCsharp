@@ -1,13 +1,20 @@
-﻿using ShopSimple.Model;
+﻿
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
+using do_an.Model;
 
-namespace ShopSimple.Controller
+namespace do_an.Controller
 {
     public class bUser
     {
-        private DBShopSimpleDataContext db = new DBShopSimpleDataContext();
+        private DBShopSimpleDataContext db;
 
+        public bUser()
+        {
+            string connectionString = ConfigurationManager.ConnectionStrings["do_an.Properties.Settings.ShopSimpleConnectionString1"].ConnectionString;
+            db = new DBShopSimpleDataContext(connectionString);
+        }
         public bool Add(User data)
         {
             try

@@ -1,5 +1,5 @@
 ﻿
-namespace Do_an.View
+namespace do_an.View
 {
     partial class frmChangePassword
     {
@@ -29,139 +29,155 @@ namespace Do_an.View
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.tbCurrent = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.tbNew = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbCurrent = new System.Windows.Forms.TextBox();
+            this.tbNew = new System.Windows.Forms.TextBox();
+            this.tbConfirm = new System.Windows.Forms.TextBox();
+            this.chbShowPassword = new System.Windows.Forms.CheckBox();
             this.btPrimary = new System.Windows.Forms.Button();
-            this.btRefresh = new System.Windows.Forms.Button();
             this.btDanger = new System.Windows.Forms.Button();
-            this.panel1.SuspendLayout();
+            this.btRefresh = new System.Windows.Forms.Button();
+            this.pnContent = new System.Windows.Forms.Panel();
+            this.pnContent.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(-1, 1);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(299, 55);
-            this.panel1.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(71, 8);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(78, 30);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(164, 29);
+            this.label1.Size = new System.Drawing.Size(193, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "Đổi mật khẩu";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(37, 71);
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(15, 42);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(136, 20);
+            this.label2.Size = new System.Drawing.Size(138, 19);
             this.label2.TabIndex = 1;
             this.label2.Text = "Mật khẩu hiện tại";
-            // 
-            // tbCurrent
-            // 
-            this.tbCurrent.Location = new System.Drawing.Point(41, 95);
-            this.tbCurrent.Multiline = true;
-            this.tbCurrent.Name = "tbCurrent";
-            this.tbCurrent.Size = new System.Drawing.Size(229, 34);
-            this.tbCurrent.TabIndex = 2;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(37, 142);
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(15, 195);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(109, 20);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Mật khẩu mới";
-            // 
-            // tbNew
-            // 
-            this.tbNew.Location = new System.Drawing.Point(41, 165);
-            this.tbNew.Multiline = true;
-            this.tbNew.Name = "tbNew";
-            this.tbNew.Size = new System.Drawing.Size(229, 34);
-            this.tbNew.TabIndex = 4;
+            this.label3.Size = new System.Drawing.Size(175, 19);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Nhập lại mật khẩu mới";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(37, 213);
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(15, 119);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(175, 20);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Nhập lại mật khẩu mới";
+            this.label4.Size = new System.Drawing.Size(111, 19);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Mật khẩu mới";
             // 
-            // textBox1
+            // tbCurrent
             // 
-            this.textBox1.Location = new System.Drawing.Point(41, 236);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(229, 34);
-            this.textBox1.TabIndex = 6;
+            this.tbCurrent.Location = new System.Drawing.Point(19, 64);
+            this.tbCurrent.Multiline = true;
+            this.tbCurrent.Name = "tbCurrent";
+            this.tbCurrent.Size = new System.Drawing.Size(252, 34);
+            this.tbCurrent.TabIndex = 4;
+            // 
+            // tbNew
+            // 
+            this.tbNew.Location = new System.Drawing.Point(19, 141);
+            this.tbNew.Multiline = true;
+            this.tbNew.Name = "tbNew";
+            this.tbNew.Size = new System.Drawing.Size(252, 34);
+            this.tbNew.TabIndex = 5;
+            // 
+            // tbConfirm
+            // 
+            this.tbConfirm.Location = new System.Drawing.Point(19, 217);
+            this.tbConfirm.Multiline = true;
+            this.tbConfirm.Name = "tbConfirm";
+            this.tbConfirm.Size = new System.Drawing.Size(252, 34);
+            this.tbConfirm.TabIndex = 6;
+            // 
+            // chbShowPassword
+            // 
+            this.chbShowPassword.AutoSize = true;
+            this.chbShowPassword.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chbShowPassword.Location = new System.Drawing.Point(19, 263);
+            this.chbShowPassword.Name = "chbShowPassword";
+            this.chbShowPassword.Size = new System.Drawing.Size(147, 21);
+            this.chbShowPassword.TabIndex = 7;
+            this.chbShowPassword.Text = "Hiển thị mật khẩu";
+            this.chbShowPassword.UseVisualStyleBackColor = true;
+            this.chbShowPassword.CheckedChanged += new System.EventHandler(this.chbShowPassword_CheckedChanged);
             // 
             // btPrimary
             // 
-            this.btPrimary.Location = new System.Drawing.Point(12, 290);
+            this.btPrimary.Location = new System.Drawing.Point(12, 361);
             this.btPrimary.Name = "btPrimary";
-            this.btPrimary.Size = new System.Drawing.Size(79, 44);
+            this.btPrimary.Size = new System.Drawing.Size(93, 52);
             this.btPrimary.TabIndex = 8;
             this.btPrimary.Text = "Lưu";
             this.btPrimary.UseVisualStyleBackColor = true;
-            // 
-            // btRefresh
-            // 
-            this.btRefresh.Location = new System.Drawing.Point(207, 290);
-            this.btRefresh.Name = "btRefresh";
-            this.btRefresh.Size = new System.Drawing.Size(79, 44);
-            this.btRefresh.TabIndex = 9;
-            this.btRefresh.Text = "Làm mới";
-            this.btRefresh.UseVisualStyleBackColor = true;
+            this.btPrimary.Click += new System.EventHandler(this.btPrimary_Click);
             // 
             // btDanger
             // 
-            this.btDanger.Location = new System.Drawing.Point(110, 290);
+            this.btDanger.Location = new System.Drawing.Point(133, 361);
             this.btDanger.Name = "btDanger";
-            this.btDanger.Size = new System.Drawing.Size(79, 44);
-            this.btDanger.TabIndex = 10;
+            this.btDanger.Size = new System.Drawing.Size(93, 52);
+            this.btDanger.TabIndex = 9;
             this.btDanger.Text = "Hủy";
             this.btDanger.UseVisualStyleBackColor = true;
+            this.btDanger.Click += new System.EventHandler(this.btDanger_Click);
+            // 
+            // btRefresh
+            // 
+            this.btRefresh.Location = new System.Drawing.Point(255, 361);
+            this.btRefresh.Name = "btRefresh";
+            this.btRefresh.Size = new System.Drawing.Size(93, 52);
+            this.btRefresh.TabIndex = 10;
+            this.btRefresh.Text = "Làm mới";
+            this.btRefresh.UseVisualStyleBackColor = true;
+            this.btRefresh.Click += new System.EventHandler(this.btRefresh_Click);
+            // 
+            // pnContent
+            // 
+            this.pnContent.Controls.Add(this.label2);
+            this.pnContent.Controls.Add(this.tbCurrent);
+            this.pnContent.Controls.Add(this.label4);
+            this.pnContent.Controls.Add(this.tbNew);
+            this.pnContent.Controls.Add(this.chbShowPassword);
+            this.pnContent.Controls.Add(this.label3);
+            this.pnContent.Controls.Add(this.tbConfirm);
+            this.pnContent.Location = new System.Drawing.Point(12, 68);
+            this.pnContent.Name = "pnContent";
+            this.pnContent.Size = new System.Drawing.Size(336, 287);
+            this.pnContent.TabIndex = 11;
             // 
             // frmChangePassword
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(298, 402);
-            this.Controls.Add(this.btDanger);
+            this.ClientSize = new System.Drawing.Size(367, 450);
+            this.Controls.Add(this.pnContent);
             this.Controls.Add(this.btRefresh);
+            this.Controls.Add(this.btDanger);
             this.Controls.Add(this.btPrimary);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.tbNew);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.tbCurrent);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.label1);
             this.Name = "frmChangePassword";
-            this.Text = "frmChangePassword";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.Text = "Đổi mật khẩu";
+            this.pnContent.ResumeLayout(false);
+            this.pnContent.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -169,16 +185,18 @@ namespace Do_an.View
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox tbCurrent;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox tbNew;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Panel pnContent;
+        private System.Windows.Forms.TextBox tbCurrent;
+        private System.Windows.Forms.TextBox tbNew;
+        private System.Windows.Forms.TextBox tbConfirm;
+        private System.Windows.Forms.CheckBox chbShowPassword;
         private System.Windows.Forms.Button btPrimary;
-        private System.Windows.Forms.Button btRefresh;
         private System.Windows.Forms.Button btDanger;
+        private System.Windows.Forms.Button btRefresh;
+        
     }
 }

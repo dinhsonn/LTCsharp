@@ -1,13 +1,19 @@
-﻿using ShopSimple.Model;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
+using do_an.Model;
 
-namespace ShopSimple.Controller
+namespace do_an.Controller
 {
     public class bAdmin
     {
-        private DBShopSimpleDataContext db = new DBShopSimpleDataContext();
+        private DBShopSimpleDataContext db;
 
+        public bAdmin()
+        {
+            string connectionString = ConfigurationManager.ConnectionStrings["do_an.Properties.Settings.ShopSimpleConnectionString1"].ConnectionString;
+            db = new DBShopSimpleDataContext(connectionString);
+        }
         public bool Add(Admin data)
         {
             try

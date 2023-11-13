@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\bAdmin.cs" />
+    <Compile Include="Controller\bCatalog.cs" />
     <Compile Include="Controller\bInvoice.cs" />
     <Compile Include="Controller\bUser.cs" />
     <Compile Include="Library\Lib.cs" />
@@ -64,6 +65,18 @@
     <Compile Include="Model\TempProduct.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\Detail\frmAccount__Detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Detail\frmAccount__Detail.Designer.cs">
+      <DependentUpon>frmAccount__Detail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Detail\frmCatalog__Detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Detail\frmCatalog__Detail.Designer.cs">
+      <DependentUpon>frmCatalog__Detail.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\fDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +135,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="View\Detail\frmAccount__Detail.resx">
+      <DependentUpon>frmAccount__Detail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Detail\frmCatalog__Detail.resx">
+      <DependentUpon>frmCatalog__Detail.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\fDashboard.resx">
       <DependentUpon>fDashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -167,9 +186,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="View\Detail\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\noImages.jpg" />
   </ItemGroup>

@@ -50,7 +50,12 @@
   <ItemGroup>
     <Compile Include="Controller\bAdmin.cs" />
     <Compile Include="Controller\bCatalog.cs" />
+    <Compile Include="Controller\bCustomer.cs" />
     <Compile Include="Controller\bInvoice.cs" />
+    <Compile Include="Controller\bInvoiceDetail.cs" />
+    <Compile Include="Controller\bProduct.cs" />
+    <Compile Include="Controller\bStatus.cs" />
+    <Compile Include="Controller\bSupplier.cs" />
     <Compile Include="Controller\bUser.cs" />
     <Compile Include="Library\Lib.cs" />
     <Compile Include="Library\ShowMessagebox.cs" />
@@ -76,6 +81,18 @@
     </Compile>
     <Compile Include="View\Detail\frmCatalog__Detail.Designer.cs">
       <DependentUpon>frmCatalog__Detail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Detail\frmCustomer__Detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Detail\frmCustomer__Detail.Designer.cs">
+      <DependentUpon>frmCustomer__Detail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Detail\frmProduct__Detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Detail\frmProduct__Detail.Designer.cs">
+      <DependentUpon>frmProduct__Detail.cs</DependentUpon>
     </Compile>
     <Compile Include="View\fDashboard.cs">
       <SubType>Form</SubType>
@@ -140,6 +157,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\Detail\frmCatalog__Detail.resx">
       <DependentUpon>frmCatalog__Detail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Detail\frmCustomer__Detail.resx">
+      <DependentUpon>frmCustomer__Detail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Detail\frmProduct__Detail.resx">
+      <DependentUpon>frmProduct__Detail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\fDashboard.resx">
       <DependentUpon>fDashboard.cs</DependentUpon>

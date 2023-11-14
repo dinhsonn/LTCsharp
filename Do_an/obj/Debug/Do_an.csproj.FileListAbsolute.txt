@@ -17,3 +17,5 @@ C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Do_an\obj\Debug\do_an.View.List.f
 C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Do_an\obj\Debug\do_an.View.List.frmProduct__List.resources
 C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Do_an\obj\Debug\do_an.View.Detail.frmCatalog__Detail.resources
 C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Do_an\obj\Debug\do_an.View.Detail.frmAccount__Detail.resources
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Do_an\obj\Debug\do_an.View.Detail.frmCustomer__Detail.resources
+C:\Users\DELL\OneDrive\C#\VuDinhSon_2121110195\Do_an\obj\Debug\do_an.View.Detail.frmProduct__Detail.resources
